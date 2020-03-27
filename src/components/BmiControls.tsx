@@ -15,7 +15,7 @@ const BmiControls: React.FC<{
         </IonButton>
       </IonCol>
       <IonCol className='ion-text-right'>
-        <IonButton onClick={props.onReset}>
+        <IonButton onClick={props.onReset} color="danger" fill="outline">
           <IonIcon slot='start' icon={refreshOutline} />
           Reset
         </IonButton>
